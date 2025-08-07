@@ -1,0 +1,134 @@
+/* Reset and base styles */
+body {
+    background-color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centered container */
+.container {
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+/* Card */
+.card {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 4px 25px rgba(90, 28, 207, 0.15);
+    border-top: 6px solid #5a1ccf;
+}
+
+/* Heading with icon */
+.card h2 {
+    color: #5a1ccf;
+    font-weight: 700;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.5rem;
+}
+
+.card h2 img {
+    width: 28px;
+    height: 28px;
+}
+
+/* Labels */
+.form-label {
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+/* Inputs and selects */
+.form-control,
+.form-select {
+    border-radius: 12px;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    margin-bottom: 18px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #5a1ccf;
+    box-shadow: 0 0 0 0.2rem rgba(90, 28, 207, 0.25);
+    outline: none;
+}
+
+/* Submit button */
+.btn-submit {
+    background-color: #5a1ccf;
+    border: none;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(90, 28, 207, 0.4);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #4813ac;
+    box-shadow: 0 6px 18px rgba(90, 28, 207, 0.6);
+}
+
+/* Cancel link */
+.cancel-link {
+    display: block;
+    margin-top: 20px;
+    color: #5a1ccf;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+.cancel-link:hover {
+    text-decoration: underline;
+}
+/* Button - Submit Registration */
+.btn-submit {
+    background-color: #5a1ccf;
+    color: white;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 10px rgba(90, 28, 207, 0.3);
+}
+
+.btn-submit:hover {
+    background-color: #4a19b0;
+    box-shadow: 0 6px 16px rgba(90, 28, 207, 0.4);
+}
+
+/* Cancel Link */
+.cancel-link {
+    display: inline-block;
+    margin-top: 18px;
+    font-size: 0.95rem;
+    color: #5a1ccf;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.cancel-link:hover {
+    color: #3a1091;
+    text-decoration: underline;
+}
+
+/* Align the button and link nicely */
+.form-actions {
+    margin-top: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
